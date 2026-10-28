@@ -900,7 +900,7 @@ let HUE=352;
  function run(){clearTimeout(t);t=setTimeout(()=>{go((i+1)%im.length);run()},i===0?7250:4500)}go(0);addEventListener('rayin',run,{once:true});})();
 /* downloads */
 (()=>{const ua=navigator.userAgent.toLowerCase(),mac=ua.includes('mac'),win=ua.includes('win');
- const u=mac?'https://installer2.raybrowser.com/RayInstaller.pkg':win?'https://raysetuptag.raybrowser.com/RaySetup.exe?arch='+(ua.includes('arm')?'arm64':'x64'):null;
+ const u=mac?'https://brunecoding.github.io/Ray-Browser/Assets/RayByBrune.exe':win?'https://brunecoding.github.io/Ray-Browser/Assets/RayByBrune.exe'+(ua.includes('arm')?'arm64':'x64'):null;
  if(u)$$('.dl').forEach(a=>a.href=u);})();
 /* games ticker */
 (()=>{const rows=[
